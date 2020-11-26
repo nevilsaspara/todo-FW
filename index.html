@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>To-Do List</h1>
+        </div>
+        <div id="search">
+            <form>
+                <input id="search-textBox" type="text" placeholder="Search Anything...">
+                <input id="search-button" type="submit" value="Search">
+            </form>
+        </div>
+    </header>
+     <nav>
+        <form>
+            <input type="text" id="todo-search" placeholder="Add new list">
+            <input type="button" id="addButton" value="Add" onclick="addOption()">
+        </form>
+    </nav>
+</body>
+<script>
+    function addOption()
+    { let i=0;
+        let arrayList= new Array();
+        x=document.getElementById("todo-search").value;
+        
+       
+            document.getElementById("list").innerHTML = x;
+       
+        
+    }
+    // <h1>Hello worlddd</h1>
+</script>
+  <section>
+          
+      <ul id="ul-list">
+      <li id="list" ></li> 
+      </ul>
+  </section>
+
+</html>

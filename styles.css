@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+  
+}
+
+header{
+  height:80px;
+  width:100%;
+  background-color:black;
+  display: flex;
+}
+
+.logo{
+  width:50%;
+}
+
+.logo h1{
+  color:white;
+  padding-left:100px;
+  line-height: 80px;
+}
+
+#search{
+  padding-left: 360px;
+  padding-top: 26px;
+}
+
+#search-textBox{
+  width:150px;
+  height:30px;
+}
+
+#search-button{
+  width:60px;
+  height:30px;
+}
+
+nav{
+  height:120px;
+  width:70%;
+  margin: 30px auto;
+}
+
+#todo-search{
+  width:800px;
+  height:40px;
+  margin-top: 40px;
+}
+#addButton{
+  width:50px;
+  height:40px;
+  background-color:black;
+  color: white;
+}
+
+section{
+  height:600px;
+  width:70%;
+  margin: auto;
+}
+section ul li{
+  font-size: 30px;
+}
+
